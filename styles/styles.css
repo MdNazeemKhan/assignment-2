@@ -1,13 +1,5 @@
 /* font (Great Vibes", cursive;) (Inter", sans-serif;) */
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
-/* .great-vibes-regular {
-  font-family: "Great Vibes", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
- */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
@@ -19,6 +11,20 @@
   font-variation-settings:
     "slnt" 0;
 } */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+/* .birthstone-regular {
+  font-family: "Birthstone", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+
+
+
+
 
 
 
@@ -48,16 +54,17 @@
     height: 715px;
     margin: 0 auto;
     
+    
 
  }
 
  .navbar{ 
-    display: flex;
-    width: 1060px;
+    max-width: 1060px;
     height: 46px;
-    border: 2px solid rgb(26, 26, 26);
     justify-content: space-between;
     margin: 0 auto;
+    padding-top: 18px;
+    align-items: center;
 
 
     
@@ -87,18 +94,20 @@
         align-items: center;
         padding: 4px 14px 4px 5px;
         color: rgb(255, 255, 255);
-        color: rgb(255, 255, 255);
+        cursor: pointer;
+    
 
     }
 
     .home-options{
         border-radius: 20px;
         height: 30px;
-        padding: 5px 20px 5px 20px;
+        padding: 4px 20px 5px 20px;
         border-radius: 40px;
         display: flex;
         align-items: center;
         background-color: rgba(230, 83, 60, 1);
+        cursor: pointer;
 
     }
 
@@ -111,9 +120,8 @@
 
 .banner{
 
-    width: 520px;
+    max-width: 520px;
     height: 440px;
-    border: 2px solid red;
 
 }
 
@@ -124,7 +132,7 @@ h1{
     color: white;
 }
 .span{
-    font-family: "Great Vibes", cursive;
+    font-family: "Birthstone", cursive;
     font-weight: 400;
     font-size: 140px;
     line-height: 93px;
@@ -148,10 +156,10 @@ h1{
     gap: 10px;
     border-radius: 25px;
     opacity: 0px;
-    background-color: 
-    rgba(230, 83, 60, 1);
+    background-color: rgba(230, 83, 60, 1);
     color: white;
     border: none;
+    cursor: pointer;
 
 }
 
@@ -167,13 +175,13 @@ h1{
     border: none;
     border: 1px solid rgba(255, 255, 255, 1);
     margin-left: 20px;
+    cursor: pointer;
 
 }
 
 .banner-img-section{
     width: 520px;
     height: 440px;
-    border: 2px solid red;
 
 }
 
@@ -198,3 +206,133 @@ h1{
 
 
 /* banner section end */
+
+
+
+
+
+
+/* responsive media query */
+
+
+
+    @media screen and (max-width: 576px){
+
+    }
+
+
+
+
+
+
+    /* footer section start */
+
+    .bg-footer{
+        width: 1440px;
+        height: 489px;
+        background:rgb(25, 25, 25);
+        margin: 0 auto;
+
+    }
+    .main-footer-section{
+        width: 1060px;
+        height: 250px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 60px;
+
+    }
+
+
+    .footer-Fitness-section{
+        width: 443px;
+        height: 176px;
+    }
+
+
+    .information-container{
+        width: 514px;
+        height: 249px;
+        display: flex;
+        justify-content: space-between;
+        
+
+    }
+
+    .footer-Get-Started-section{
+        width: 181px;
+        height: 249px;
+        gap: 39px;
+    }
+
+    .footer-Platform-section{
+        width: 181px;
+        height: 249px;
+        gap: 39px;
+    }
+
+
+.hr{
+
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    width: 1059.5px; 
+    height: 0px;
+    top: 394px;
+    left: 189px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    margin: 0 auto;
+
+}
+.all-right-reserved{
+    color: rgba(121, 121, 121, 0.404);
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0 auto;
+
+}
+
+
+.footer-fitness{
+    color: rgba(230, 83, 60, 1);
+    font-style: italic;
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 84px;
+    text-align: left;
+
+
+}
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.3px;
+
+}
+
+.h3-footer{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.p-footer{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27.6px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+/*  footer section end */
