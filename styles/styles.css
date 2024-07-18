@@ -8,7 +8,7 @@
   font-style: normal;
 }
  */
- 
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 /* .inter-<uniquifier> {
@@ -21,3 +21,180 @@
 } */
 
 
+
+        /* default styles */
+        *{
+            margin: 0;
+            padding: 0%;
+        }
+    
+         /* shared styles */
+ .display-flex{
+    display: flex;
+ }
+      
+        
+    /* Nav section start */
+    
+
+  .Inter-sans-serif{
+    font-family: "Inter", sans-serif;
+    font-style: normal;}
+
+
+ .bg-praimary{
+    background: linear-gradient(180deg, #424242 0%, rgb(0, 0, 0) 100%);
+    width: 1440px;
+    height: 715px;
+    margin: 0 auto;
+    
+
+ }
+
+ .navbar{ 
+    display: flex;
+    width: 1060px;
+    height: 46px;
+    border: 2px solid rgb(26, 26, 26);
+    justify-content: space-between;
+    margin: 0 auto;
+
+
+    
+ }
+
+
+ .brand{
+    font-weight: 700;
+    height: 42px;
+    font-style: italic;
+    font-size: 3rem;
+    line-height: 42px;
+    color:rgba(230, 83, 60, 1);
+
+ }
+
+
+    .nav-options{
+        font-weight: 500px;
+        display: flex;
+        gap: 3rem;
+        margin-right: 100px;
+        border-radius: 25px;
+        border: 1px solid rgba(155, 155, 155, 0.63);
+        padding: 10px;
+        font-size: 18px;
+        align-items: center;
+        padding: 4px 14px 4px 5px;
+        color: rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+
+    }
+
+    .home-options{
+        border-radius: 20px;
+        height: 30px;
+        padding: 5px 20px 5px 20px;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        background-color: rgba(230, 83, 60, 1);
+
+    }
+
+    /* Nav section end */
+
+
+
+
+    /* banner section start */
+
+.banner{
+
+    width: 520px;
+    height: 440px;
+    border: 2px solid red;
+
+}
+
+h1{
+    font-weight: 900;
+    font-size: 78px;
+    line-height: 93px;
+    color: white;
+}
+.span{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 93px;
+    font-style: normal;
+
+}
+.header-description{
+    color: rgba(153, 153, 153, 0.733);
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+}
+
+
+.btn-join{
+    width: fixed 224px;
+    height: fixed 54px;
+    padding: 16px 40px 16px 40px;
+    gap: 10px;
+    border-radius: 25px;
+    opacity: 0px;
+    background-color: 
+    rgba(230, 83, 60, 1);
+    color: white;
+    border: none;
+
+}
+
+.btn-download{
+    width: fixed 224px;
+    height: fixed 54px;
+    padding: 16px 40px 16px 40px;
+    gap: 10px;
+    border-radius: 25px;
+    opacity: 0px;
+    background-color:rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 1);
+    margin-left: 20px;
+
+}
+
+.banner-img-section{
+    width: 520px;
+    height: 440px;
+    border: 2px solid red;
+
+}
+
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+    margin: 4rem auto;
+
+
+}
+
+.banner-img-section{
+        width: 349px;
+        height: 580px;
+        top: 135px;
+        left: 877px;
+        gap: 0px;
+        opacity: 0px;
+
+}
+
+
+/* banner section end */
